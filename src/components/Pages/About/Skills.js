@@ -31,7 +31,7 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <div className='grid grid-cols-1 lg:grid-cols-3 gap-5'>
+                <div className='grid grid-cols-1 lg:grid-cols-3 mb-8 gap-5'>
                     <div class="w-full bg-gray-200 mb-3 h-1">
                         <div class="bg-green-400 uppercase h-1 text-xl" style={{ width: '55%' }}>Firebase</div>
                     </div>
@@ -41,6 +41,15 @@ const Skills = () => {
                     </div>
                     <div class="w-full bg-gray-200 mb-3 h-1">
                         <div class="bg-green-400 uppercase h-1 text-xl" style={{ width: '70%' }}></div>
+                    </div>
+                </div>
+                <div className='grid grid-cols-1 lg:grid-cols-3 gap-5'>
+                    <div class="w-full bg-gray-200 mb-3 h-1">
+                        <div class="bg-green-400 uppercase h-1 text-xl" style={{ width: '80%' }}>Tailwind CSS</div>
+                    </div>
+
+                    <div class="w-full bg-gray-200 mb-3 h-1">
+                        <div class="bg-green-400 uppercase h-1 text-xl" style={{ width: '55%' }}>Express JS</div>
                     </div>
                 </div>
 
