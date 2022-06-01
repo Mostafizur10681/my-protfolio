@@ -6,10 +6,10 @@ import macBook from '../../assets/macBook.jpg';
 
 const Protfolio = () => {
     return (
-        <div className='text-center px-12 my-12'>
+        <div className='text-center px-5 lg:px-12 my-12'>
             <h1 className='text-center font-bold mb-12 text-5xl uppercase'>My <span className='text-primary'>Protfolio</span></h1>
             <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2'>
-                <div class="card card-compact mb-8 w-96 bg-base-100 shadow-xl">
+                <div class="card card-compact mb-5 w-72 lg:w-96 bg-base-100 shadow-xl">
                     <figure>
                         <img src={gadget} alt="Shoes" />
                     </figure>
@@ -19,7 +19,7 @@ const Protfolio = () => {
                         </div>
                     </div>
                 </div>
-                <div class="card card-compact mb-8 w-96 bg-base-100 shadow-xl">
+                <div class="card card-compact mb-5 w-72 lg:w-96 bg-base-100 shadow-xl">
                     <figure>
                         <img src={carWareHouse} alt="Shoes" />
                     </figure>
@@ -29,7 +29,7 @@ const Protfolio = () => {
                         </div>
                     </div>
                 </div>
-                <div class="card card-compact mb-8 w-96 bg-base-100 shadow-xl">
+                <div class="card card-compact mb-5 w-72 lg:w-96 bg-base-100 shadow-xl">
                     <figure>
                         <img src={englishTutor} alt="Shoes" />
                     </figure>
@@ -39,7 +39,7 @@ const Protfolio = () => {
                         </div>
                     </div>
                 </div>
-                <div class="card card-compact mb-8 w-96 bg-base-100 shadow-xl">
+                <div class="card card-compact mb-5 w-72 lg:w-96 bg-base-100 shadow-xl">
                     <figure>
                         <img src={macBook} alt="Shoes" />
                     </figure>
