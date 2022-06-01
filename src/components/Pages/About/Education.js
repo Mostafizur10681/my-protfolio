@@ -35,7 +35,7 @@ const Education = () => {
                             <h2 className='text-2xl pl-10'><FontAwesomeIcon className=' text-2xl pl-2 mr-2' icon={faBook}></FontAwesomeIcon><span className='font-bold'>Web Development Course -</span> <span>Progamming Hero</span></h2>
                             <p className='pl-10 py-3'>I have completed my Web Development course from Programming Hero.
                             </p>
-                            <p className='pl-10'><FontAwesomeIcon className='mr-1' icon={faCalendarDays}></FontAwesomeIcon> 2018-2021</p>
+                            <p className='pl-10'><FontAwesomeIcon className='mr-1' icon={faCalendarDays}></FontAwesomeIcon> 2021</p>
                         </div>
                     </div>
 
@@ -44,7 +44,7 @@ const Education = () => {
                             <h2 className='text-2xl pl-10'><FontAwesomeIcon className=' text-2xl pl-2 mr-2' icon={faBook}></FontAwesomeIcon><span className='font-bold'>Web Design-</span> <span>Coder Trust Bangladesh</span></h2>
                             <p className='pl-10 py-3'>I have completed my Web Designing course from CoderTrust Bangladesh.
                             </p>
-                            <p className='pl-10'><FontAwesomeIcon className='mr-1' icon={faCalendarDays}></FontAwesomeIcon> 2018-2021</p>
+                            <p className='pl-10'><FontAwesomeIcon className='mr-1' icon={faCalendarDays}></FontAwesomeIcon>2021-present</p>
 
                         </div>
                     </div>
