@@ -19,7 +19,7 @@ const Banner = () => {
                 <img class="mask w-96 mask-circle" src={profile} />
                 <div>
                     <h6 className='text-lg uppercase font-bold text-white'>HI There!</h6>
-                    <h1 class="text-5xl font-bold text-white">I'm A <span className='text-primary word'>MERN Stack Developer</span></h1>
+                    <h1 class="lg:text-5xl text-3xl  font-bold text-white">I'm A <span className='text-primary word'>MERN Stack Developer</span></h1>
                     <p class="py-6 text-white">This is Md. Mostafizur Rahman. I'm MERN stack developer. I'm expertise in HTML, CSS, Bootstrap, Tailwind CSS,
                         JavaScript, MongoDB, ExpressJS, ReactJS, Node JS. I also know about some tools like Firbase, Heroku, Netlify, Github etc  I'm  a skilled person.
                         I'm also dedicated and good learner.
