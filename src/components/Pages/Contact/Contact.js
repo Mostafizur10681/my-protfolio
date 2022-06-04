@@ -1,11 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone, } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
-import { Link } from 'react-router-dom';
 import github from '../../assets/icon/github.png';
 import mail from '../../assets/icon/mail.png';
 import facebook from '../../assets/icon/facebook.png';
-import whatsApp from '../../assets/icon/whatsapp.png';
+import twitter from '../../assets/icon/twitter.png'
 import linkedin from '../../assets/icon/linkdin.png';
 
 const Contact = () => {
@@ -30,7 +29,7 @@ const Contact = () => {
                             <div className='grid grid-cols-3 gap-4 mt-2'>
                                 <a href="https://www.facebook.com/profile.php?id=100010110405257" target='_blank'><img className='mr-3 w-8' src={facebook} alt="" /></a>
                                 <a href="https://www.linkedin.com/in/md-mostafizur-rahman/" target="_blank"><img className='mr-3 w-8' src={linkedin} alt="" /></a>
-                                <Link to='#'><img className='mr-3 w-8' src={whatsApp} alt="" /></Link>
+                                <a href="https://twitter.com/Mostafizur181" target="_blank"><img className='mr-3 w-8' src={twitter} alt="" /></a>
                                 <a href="https://github.com/Mostafizur10681" target='_blank'><img className='mr-3 w-8' src={github} alt="" /></a>
                                 <a href="mailto: mostafizur15-10681@diu.edu.bd"><img className='mr-3 w-8' src={mail} alt="" /></a>
                             </div>

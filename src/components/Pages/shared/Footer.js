@@ -2,7 +2,7 @@ import React from 'react';
 import github from '../../assets/icon/github.png';
 import mail from '../../assets/icon/mail.png';
 import facebook from '../../assets/icon/facebook.png';
-import whatsApp from '../../assets/icon/whatsapp.png';
+import twitter from '../../assets/icon/twitter.png'
 import linkedin from '../../assets/icon/linkdin.png';
 import { Link } from 'react-router-dom';
 
@@ -17,7 +17,7 @@ const Footer = () => {
                 <div class="grid grid-flow-col gap-4">
                     <a href="https://www.facebook.com/profile.php?id=100010110405257" target='_blank'><img className='mr-3 w-8' src={facebook} alt="" /></a>
                     <a href="https://www.linkedin.com/in/md-mostafizur-rahman/" target="_blank"><img className='mr-3 w-8' src={linkedin} alt="" /></a>
-                    <Link to='#'><img className='mr-3 w-8' src={whatsApp} alt="" /></Link>
+                    <a href="https://twitter.com/Mostafizur181" target="_blank"><img className='mr-3 w-8' src={twitter} alt="" /></a>
                     <a href="https://github.com/Mostafizur10681" target='_blank'><img className='mr-3 w-8' src={github} alt="" /></a>
                     <a href="mailto: mostafizur15-10681@diu.edu.bd"><img className='mr-3 w-8' src={mail} alt="" /></a>
                 </div>
