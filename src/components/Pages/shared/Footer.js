@@ -9,9 +9,9 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
-            <div class="grid grid-flow-col gap-4">
-                <a class="link link-hover">About us</a>
-                <a class="link link-hover">Contact</a>
+            <div class="grid grid-flow-col gap-4 text-xl">
+                <Link to='/about'><a class="link link-hover">About us</a></Link>
+                <Link to='/contact'><a class="link link-hover">Contact</a></Link>
             </div>
             <div>
                 <div class="grid grid-flow-col gap-4">
