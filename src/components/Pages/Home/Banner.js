@@ -3,8 +3,9 @@ import bg from '../../assets/bg.png';
 import dark from '../../assets/bg-dark.jpg'
 import profile from '../../assets/profile.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faUser, faBox } from '@fortawesome/free-solid-svg-icons'
+import { faUser, faBox } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom';
+import sourav from '../../assets/sourav.png'
 import './Banner.css'
 
 
@@ -17,7 +18,7 @@ const Banner = () => {
             backgroundSize: 'cover'
         }}>
             <div class="hero-content mx-auto  flex-col lg:flex-row">
-                <img class="mask w-96 mask-circle" src={profile} />
+                <img class="mask w-96 mask-circle" src={sourav} />
                 <div>
                     <h6 className='text-lg uppercase font-bold text-white'>HI There! </h6>
                     <h1 class="lg:text-5xl text-3xl  font-bold text-white">I'm A <span className='text-primary'>MERN Stack Developer</span></h1>

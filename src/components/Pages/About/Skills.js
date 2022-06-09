@@ -48,6 +48,21 @@ const Skills = () => {
                     <div class="w-full bg-gray-200 mb-3 h-1">
                         <div class="bg-green-400 uppercase h-1 text-xl" style={{ width: '55%' }}>Express JS(55%)</div>
                     </div>
+                    <div class="w-full bg-gray-200 mb-3 h-1">
+                        <div class="bg-green-400 uppercase h-1 text-xl" style={{ width: '70%' }}>Wordpress(70%)</div>
+                    </div>
+                    <div class="w-full bg-gray-200 mb-3 h-1">
+                        <div class="bg-green-400 uppercase h-1 text-xl" style={{ width: '75%' }}>GitHub(75%)</div>
+                    </div>
+                </div>
+                <div className='grid grid-cols-1 lg:grid-cols-3 gap-5'>
+
+                    <div class="w-full bg-gray-200 lg:mt-6 mt-4 mb-3 h-1">
+                        <div class="bg-green-400 uppercase h-1 text-xl" style={{ width: '75%' }}>Netlify(75%)</div>
+                    </div>
+                    <div class="w-full bg-gray-200 lg:mt-6 mb-3 h-1">
+                        <div class="bg-green-400 uppercase h-1 text-xl" style={{ width: '70%' }}>Heroku(70%)</div>
+                    </div>
                 </div>
 
 

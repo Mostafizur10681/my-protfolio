@@ -15,11 +15,11 @@ const Footer = () => {
             </div>
             <div>
                 <div class="grid grid-flow-col gap-4">
-                    <a href="https://www.facebook.com/profile.php?id=100010110405257" target='_blank'><img className='mr-3 w-8' src={facebook} alt="" /></a>
-                    <a href="https://www.linkedin.com/in/md-mostafizur-rahman/" target="_blank"><img className='mr-3 w-8' src={linkedin} alt="" /></a>
-                    <a href="https://twitter.com/Mostafizur181" target="_blank"><img className='mr-3 w-8' src={twitter} alt="" /></a>
-                    <a href="https://github.com/Mostafizur10681" target='_blank'><img className='mr-3 w-8' src={github} alt="" /></a>
-                    <a href="mailto: mostafizur15-10681@diu.edu.bd"><img className='mr-3 w-8' src={mail} alt="" /></a>
+                    <a href="https://www.facebook.com/profile.php?id=100010110405257" target='_blank'><img className='mr-3 rounded-md w-8' src={facebook} alt="" /></a>
+                    <a href="https://www.linkedin.com/in/md-mostafizur-rahman/" target="_blank"><img className='mr-3 rounded-md w-8' src={linkedin} alt="" /></a>
+                    <a href="https://twitter.com/Mostafizur181" target="_blank"><img className='mr-3 rounded-md  w-9' src={twitter} alt="" /></a>
+                    <a href="https://github.com/Mostafizur10681" target='_blank'><img className='mr-3 rounded-md w-8' src={github} alt="" /></a>
+                    <a href="mailto: mostafizur15-10681@diu.edu.bd"><img className='mr-3 rounded-md w-10' src={mail} alt="" /></a>
                 </div>
             </div>
             <div>
