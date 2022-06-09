@@ -6,7 +6,7 @@ const Navbar = () => {
     const menuItems = <>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>
-        <li><Link to="/protfolio">Protfolio</Link></li>
+        <li><Link to="/protfolio">Projects</Link></li>
         <li><Link to="/contact">Contact</Link></li>
     </>
     return (

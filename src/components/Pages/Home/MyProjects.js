@@ -2,15 +2,13 @@ import React from 'react';
 import gadget from '../../assets/gadget.jpg';
 import carWareHouse from '../../assets/carWareHouse.jpg';
 import englishTutor from '../../assets/EnglishTutor.jpg';
-import macbook from '../../assets/macBook.jpg';
-import electronics from '../../assets/electronics.jpg'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
-const Protfolio = () => {
+const MyProjects = () => {
     return (
-        <div className='text-center px-6 lg:px-12 my-12'>
-            <h1 className='text-center font-bold mb-12 text-5xl lg:text-5xl uppercase'>My <span className='text-primary'>Projects</span></h1>
+        <div className='text-center px-6 lg:px-12 my-24'>
+            <h1 className='text-center font-bold mb-12 text-6xl lg:text-5xl uppercase'>My <span className='text-primary'>Projects</span></h1>
             <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2'>
                 <div class="card card-compact mb-5 w-full lg:w-96 bg-base-100 shadow-xl">
                     <figure>
@@ -60,42 +58,6 @@ const Protfolio = () => {
                             <label for="englishtutor-modal" class="btn btn-outline btn-primary text-white text-md modal-button">Details<FontAwesomeIcon className='ml-1' icon={faArrowRight}></FontAwesomeIcon></label>
                             <a href="https://english-tutor-react.web.app/" target='_blank'><button class="btn btn-outline btn-primary text-white text-md">Live Site</button></a>
                             <a href="https://github.com/Mostafizur10681/english-tutor" target='_blank'><button class="btn btn-outline btn-primary text-white text-md">GitHub</button></a>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="card card-compact mb-5 w-full lg:w-96 bg-base-100 shadow-xl">
-                    <figure>
-                        <img src={macbook} alt="MacBook" />
-                    </figure>
-                    <div class="card-body">
-                        <h2 className='text-center font-bold text-2xl uppercase'>Mac Book Pro</h2>
-                        <span className='text-lg font-bold text-gray-500'>
-                            <span className='uppercase text-primary text-xl'>Technologies:</span>Bootstrap,React Router, Context API,Custom Hook, Natlify
-                        </span>
-                        <div class="card-actions justify-center">
-                            <label for="macbook-modal" class="btn btn-outline btn-primary text-white text-md modal-button">Details<FontAwesomeIcon className='ml-1' icon={faArrowRight}></FontAwesomeIcon></label>
-
-                            <a href="https://mac-book-pro-analysis.netlify.app/" target='_blank'><button class="btn btn-outline btn-primary text-white text-md">Live Site</button></a>
-                            <a href="https://github.com/Mostafizur10681/mac-book-pro" target='_blank'><button class="btn btn-outline btn-primary text-white text-md">GitHub</button></a>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="card card-compact mb-5 w-full lg:w-96 bg-base-100 shadow-xl">
-                    <figure>
-                        <img src={electronics} alt="MacBook" />
-                    </figure>
-                    <div class="card-body">
-                        <h2 className='text-center font-bold text-2xl uppercase'>Mac Book Pro</h2>
-                        <span className='text-lg font-bold text-gray-500'>
-                            <span className='uppercase text-primary text-xl'>Technologies:</span>Bootstrap,React Router, Context API,Custom Hook, Natlify
-                        </span>
-                        <div class="card-actions justify-center">
-                            <label for="electronics-modal" class="btn btn-outline btn-primary text-white text-md modal-button">Details<FontAwesomeIcon className='ml-1' icon={faArrowRight}></FontAwesomeIcon></label>
-
-                            <a href="https://timely-longma-a7558f.netlify.app/" target='_blank'><button class="btn btn-outline btn-primary text-white text-md">Live Site</button></a>
-                            <a href="https://github.com/Mostafizur10681/mac-book-pro" target='_blank'><button class="btn btn-outline btn-primary text-white text-md">GitHub</button></a>
 
                         </div>
                     </div>
@@ -232,70 +194,9 @@ const Protfolio = () => {
                         </div>
                     </div>
                 </div>
-                <div>
-                    <input type="checkbox" id="macbook-modal" class="modal-toggle" />
-                    <div class="modal modal-bottom sm:modal-middle">
-                        <div class="modal-box">
-                            <label for="macbook-modal" class="btn btn-sm btn-circle absolute bg-red-600 right-2 top-2">✕</label>
-                            <figure>
-                                <img src={macbook} alt="EnglishTutor" />
-                            </figure>
-                            <div>
-                                <h2 className='text-primary font-bold text-2xl text-left'>English Features:</h2>
-                                <p className='text-left text-md'>
-                                    1.In the home page user can see banner & some review
-                                </p>
-                                <p className='text-left text-md'>
-                                    2. If user click see all review they go to review page. And see all review
-                                </p>
-
-
-                            </div>
-                            <div className='mt-2'>
-                                <h2 className='text-primary font-bold text-2xl text-left'>Project Details:</h2>
-                                <p className='text-left text-md'>
-                                    1. It's a single page Web App. Where I use React Router.v6 for build this.
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <input type="checkbox" id="electronics-modal" class="modal-toggle" />
-                    <div class="modal modal-bottom sm:modal-middle">
-                        <div class="modal-box">
-                            <label for="electronics-modal" class="btn btn-sm btn-circle absolute bg-red-600 right-2 top-2">✕</label>
-                            <figure>
-                                <img src={electronics} alt="EnglishTutor" />
-                            </figure>
-                            <div>
-                                <h2 className='text-primary font-bold text-2xl text-left'>English Features:</h2>
-                                <p className='text-left text-md'>
-                                    1.User can add to cart
-                                </p>
-                                <p className='text-left text-md'>
-                                    2. When user click add to cart they see selected item on the left side
-                                </p>
-                                <p className='text-left text-md'>
-                                    2. Then user can choose 1 from this cart
-                                </p>
-
-
-                            </div>
-                            <div className='mt-2'>
-                                <h2 className='text-primary font-bold text-2xl text-left'>Project Details:</h2>
-                                <p className='text-left text-md'>
-                                    1. It's a single page Web App.
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     );
 };
 
-export default Protfolio;
+export default MyProjects;
