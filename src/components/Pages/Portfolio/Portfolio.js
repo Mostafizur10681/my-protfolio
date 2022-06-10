@@ -295,7 +295,7 @@ const Protfolio = () => {
 
                             </Slider>
                             <div>
-                                <h2 className='text-primary font-bold text-2xl text-left'>English Features:</h2>
+                                <h2 className='text-primary font-bold text-2xl text-left'>Mac Book Features:</h2>
                                 <p className='text-left text-md'>
                                     1.In the home page user can see banner & some review
                                 </p>
@@ -333,7 +333,7 @@ const Protfolio = () => {
 
                             </Slider>
                             <div>
-                                <h2 className='text-primary font-bold text-2xl text-left'>English Features:</h2>
+                                <h2 className='text-primary font-bold text-2xl text-left'>Electronics Store Features:</h2>
                                 <p className='text-left text-md'>
                                     1.User can add to cart
                                 </p>
