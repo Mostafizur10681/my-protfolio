@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "img1": "https://i.ibb.co/3W64WSZ/gadget.jpg",
+        "img2": "https://i.ibb.co/68kGqHx/admin.jpg",
+        "img3": "https://i.ibb.co/LCqQrxL/computer2.jpg",
+        "title": "COMPUTER MANUFACTURER",
+        "siteLink": "https://computer-manufacturer-c3b6a.web.app/",
+        "github": "https://github.com/Mostafizur10681/computer-manufacturer",
+        "tecnologics": "React JS, Node JS, JavaScript(ES6), Express JS, MongoDB, Firebase",
+        "description1": "Users can visit all pages and see our users feedback, also user can see all product. User can see product details & also user ordered product.Have user feedback process and order review on user dashboard.Have an admin dashboard where an admin can manage the full site, orders and users. Users cannot visit on admin dashboard.",
+        "description2": "1. It's a single page Web App. Where I use React Router.v6 for build this.2. For server side here use heroku server.3. Implement Private Route and Redirect history. And For login process uses Email, Pass and Google. 4. For designing, here I use DaisyUI Tailwind CSS. Also try to make responsive for mobile and dex-top.5. For security I use it JWT Token."
+    },
+    {
+        "id": 2,
+        "img1": "https://i.ibb.co/svK32CY/car-Ware-House.jpg",
+        "img2": "https://i.ibb.co/z28crxg/Screenshot-4.jpg",
+        "img3": "https://i.ibb.co/v39Cbdv/manage-inventory.jpg",
+        "title": "CAR WAREHOUSE",
+        "siteLink": "https://car-warehouse-47794.web.app/",
+        "github": "https://github.com/Mostafizur10681/car-warehouse-client",
+        "tecnologics": "React JS, Node JS, JavaScript(ES6), Express JS, MongoDB, Firebase",
+        "description1": "1. User can see some product in home page, some product see in the manage inventory page. 2. User can see product details. If user click update button they can single product. Then user can restore & delivered product. 3. User can see all product in Manage Inventory page. User also manage product like update & delete. 4. User can add new Inventory. 5. In My Items page user can only their specific inventory item.",
+        "description2": "1. It's a single page Web App. Where I use React Router.v6 for build this.  2. For server side here use heroku server. 3. Implement Private Route and Redirect history. And For login process uses Email, Pass and Google. 4. For designing, here I use React Bootstrap. Also try to make responsive for mobile and dex-top."
+    },
+    {
+        "id": 3,
+        "img1": "https://i.ibb.co/Xt8VkPL/English-Tutor.jpg",
+        "img2": "https://i.ibb.co/SttnYVK/tutor2.jpg",
+        "img3": "https://i.ibb.co/t8DSNxZ/tutor3.jpg",
+        "title": "ENGLISH TUTOR",
+        "siteLink": "https://english-tutor-react.web.app/",
+        "github": "https://github.com/Mostafizur10681/english-tutor",
+        "description1": "1. User can see some services in home page. 2. If user click enroll button they can see procced checkout page. 3. In the services page user can see all product.",
+        "description2": "1. It's a single page Web App. Where I use React Router.v6 for build this. 2. For login I use firebase login authentication. 3. User login by gmail, google & github",
+        "tecnologics": "React JS, React Bootstrap, JavaScript(ES6), Firebase"
+    },
+    {
+        "id": 4,
+        "img1": "https://i.ibb.co/drk4JPJ/macBook.jpg",
+        "img2": "https://i.ibb.co/4jfkPyt/mac-2.jpg",
+        "img3": "https://i.ibb.co/6rXGMS4/mac-3.jpg",
+        "title": "MAC BOOK PRO",
+        "siteLink": "https://mac-book-pro-analysis.netlify.app/",
+        "github": "https://github.com/Mostafizur10681/mac-book-pro",
+        "description1": "1.In the home page user can see banner & some review. 2. If user click see all review they go to review page. And see all review",
+        "description2": "1. It's a single page Web App. Where I use React Router.v6 for build this.",
+        "tecnologics": "Bootstrap,React Router, Context API,Custom Hook, Netlify"
+    },
+    {
+        "id": 5,
+        "img1": "https://i.ibb.co/JqhcpDJ/electronics.jpg",
+        "img2": "https://i.ibb.co/RB1G17g/eleo1.jpg",
+        "img3": "https://i.ibb.co/m50kJDC/Screenshot-5.jpg",
+        "title": "Elecctornics Store",
+        "siteLink": "https://timely-longma-a7558f.netlify.app/",
+        "github": "https://github.com/Mostafizur10681/lucky-one",
+        "description1": "1.User can add to cart. 2. When user click add to cart they see selected item on the left side3. Then user can choose 1 from this cart",
+        "description2": "1. It's a single page Web App.",
+        "tecnologics": "Bootstrap,React Router, Context API,Custom Hook, Netlify"
+    }
+]

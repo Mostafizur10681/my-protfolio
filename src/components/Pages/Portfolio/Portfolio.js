@@ -4,13 +4,31 @@ import carWareHouse from '../../assets/carWareHouse.jpg';
 import englishTutor from '../../assets/EnglishTutor.jpg';
 import macbook from '../../assets/macBook.jpg';
 import electronics from '../../assets/electronics.jpg'
+import car2 from '../../assets/car2.jpg';
+import car3 from '../../assets/car3.jpg';
+import gadget2 from '../../assets/gadget2.jpg';
+import gadget3 from '../../assets/gadget3.jpg';
+import elo2 from '../../assets/elo2.jpg';
+import ele3 from '../../assets/elo3.jpg';
+import tutor2 from '../../assets/tutor2.jpg';
+import tutor3 from '../../assets/tutor3.jpg';
+import mac2 from '../../assets/mac2.jpg';
+import mac3 from '../../assets/mac3.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import Slider from "react-slick";
 
 const Protfolio = () => {
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    };
     return (
         <div className='text-center px-6 lg:px-12 my-12'>
-            <h1 className='text-center font-bold mb-12 text-5xl lg:text-5xl uppercase'>My <span className='text-primary'>Projects</span></h1>
+            <h1 className='text-center font-bold mb-12 text-3xl lg:text-6xl uppercase'>My <span className='text-primary'>Projects</span></h1>
             <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2'>
                 <div class="card card-compact mb-5 w-full lg:w-96 bg-base-100 shadow-xl">
                     <figure>
@@ -71,7 +89,7 @@ const Protfolio = () => {
                     <div class="card-body">
                         <h2 className='text-center font-bold text-2xl uppercase'>Mac Book Pro</h2>
                         <span className='text-lg font-bold text-gray-500'>
-                            <span className='uppercase text-primary text-xl'>Technologies:</span>Bootstrap,React Router, Context API,Custom Hook, Natlify
+                            <span className='uppercase text-primary text-xl'>Technologies:</span>Bootstrap,React Router, Context API,Custom Hook, Netlify
                         </span>
                         <div class="card-actions justify-center">
                             <label for="macbook-modal" class="btn btn-outline btn-primary text-white text-md modal-button">Details<FontAwesomeIcon className='ml-1' icon={faArrowRight}></FontAwesomeIcon></label>
@@ -87,9 +105,9 @@ const Protfolio = () => {
                         <img src={electronics} alt="MacBook" />
                     </figure>
                     <div class="card-body">
-                        <h2 className='text-center font-bold text-2xl uppercase'>Mac Book Pro</h2>
+                        <h2 className='text-center font-bold text-2xl uppercase'>Electronics</h2>
                         <span className='text-lg font-bold text-gray-500'>
-                            <span className='uppercase text-primary text-xl'>Technologies:</span>Bootstrap,React Router, Context API,Custom Hook, Natlify
+                            <span className='uppercase text-primary text-xl'>Technologies:</span>Bootstrap,React Router, Context API,Custom Hook, Netlify
                         </span>
                         <div class="card-actions justify-center">
                             <label for="electronics-modal" class="btn btn-outline btn-primary text-white text-md modal-button">Details<FontAwesomeIcon className='ml-1' icon={faArrowRight}></FontAwesomeIcon></label>
@@ -106,9 +124,18 @@ const Protfolio = () => {
                     <div class="modal modal-bottom sm:modal-middle">
                         <div class="modal-box">
                             <label for="manufacturer-modal" class="btn btn-sm btn-circle absolute bg-red-600 right-2 top-2">✕</label>
-                            <figure>
-                                <img src={gadget} alt="Shoes" />
-                            </figure>
+                            <Slider {...settings} className='mb-6'>
+                                <div>
+                                    <img src={gadget} alt="" srcset="" />
+                                </div>
+                                <div>
+                                    <img src={gadget2} alt="" srcset="" />
+                                </div>
+                                <div>
+                                    <img src={gadget3} alt="" srcset="" />
+                                </div>
+
+                            </Slider>
                             <div>
                                 <h2 className='text-primary font-bold text-2xl text-left'>Computer Manufacturer Features:</h2>
                                 <p className='text-left text-md'>
@@ -152,9 +179,18 @@ const Protfolio = () => {
                     <div class="modal modal-bottom sm:modal-middle">
                         <div class="modal-box">
                             <label for="carwarehouse-modal" class="btn btn-sm btn-circle absolute bg-red-600 right-2 top-2">✕</label>
-                            <figure>
-                                <img src={carWareHouse} alt="carwarehouse" />
-                            </figure>
+                            <Slider {...settings} className='mb-6'>
+                                <div>
+                                    <img src={carWareHouse} alt="" srcset="" />
+                                </div>
+                                <div>
+                                    <img src={car2} alt="" srcset="" />
+                                </div>
+                                <div>
+                                    <img src={car3} alt="" srcset="" />
+                                </div>
+
+                            </Slider>
                             <div>
                                 <h2 className='text-primary font-bold text-2xl text-left'>Car WareHouse Features:</h2>
                                 <p className='text-left text-md'>
@@ -198,9 +234,18 @@ const Protfolio = () => {
                     <div class="modal modal-bottom sm:modal-middle">
                         <div class="modal-box">
                             <label for="englishtutor-modal" class="btn btn-sm btn-circle absolute bg-red-600 right-2 top-2">✕</label>
-                            <figure>
-                                <img src={englishTutor} alt="EnglishTutor" />
-                            </figure>
+                            <Slider {...settings} className='mb-6'>
+                                <div>
+                                    <img src={englishTutor} alt="" srcset="" />
+                                </div>
+                                <div>
+                                    <img src={tutor2} alt="" srcset="" />
+                                </div>
+                                <div>
+                                    <img src={tutor3} alt="" srcset="" />
+                                </div>
+
+                            </Slider>
                             <div>
                                 <h2 className='text-primary font-bold text-2xl text-left'>English Features:</h2>
                                 <p className='text-left text-md'>
@@ -237,9 +282,18 @@ const Protfolio = () => {
                     <div class="modal modal-bottom sm:modal-middle">
                         <div class="modal-box">
                             <label for="macbook-modal" class="btn btn-sm btn-circle absolute bg-red-600 right-2 top-2">✕</label>
-                            <figure>
-                                <img src={macbook} alt="EnglishTutor" />
-                            </figure>
+                            <Slider {...settings} className='mb-6'>
+                                <div>
+                                    <img src={macbook} alt="" srcset="" />
+                                </div>
+                                <div>
+                                    <img src={mac2} alt="" srcset="" />
+                                </div>
+                                <div>
+                                    <img src={mac3} alt="" srcset="" />
+                                </div>
+
+                            </Slider>
                             <div>
                                 <h2 className='text-primary font-bold text-2xl text-left'>English Features:</h2>
                                 <p className='text-left text-md'>
@@ -266,9 +320,18 @@ const Protfolio = () => {
                     <div class="modal modal-bottom sm:modal-middle">
                         <div class="modal-box">
                             <label for="electronics-modal" class="btn btn-sm btn-circle absolute bg-red-600 right-2 top-2">✕</label>
-                            <figure>
-                                <img src={electronics} alt="EnglishTutor" />
-                            </figure>
+                            <Slider {...settings} className='mb-6'>
+                                <div>
+                                    <img src={electronics} alt="" srcset="" />
+                                </div>
+                                <div>
+                                    <img src={elo2} alt="" srcset="" />
+                                </div>
+                                <div>
+                                    <img src={ele3} alt="" srcset="" />
+                                </div>
+
+                            </Slider>
                             <div>
                                 <h2 className='text-primary font-bold text-2xl text-left'>English Features:</h2>
                                 <p className='text-left text-md'>

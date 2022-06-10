@@ -1,14 +1,15 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLaptop, faLaptopCode, faLaptopMedical } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
+import './Services.css'
 
 const Services = () => {
     return (
-        <div className='my-12  px-12'>
+        <div className='my-12 py-12 bg-slate-200 px-5 lg:px-12'>
             <p className='text-center text-xl'>Which Service I will Provide You</p>
-            <h1 className='text-6xl uppercase font-bold text-center text-primary mb-5'>Services</h1>
+            <h1 className='text-3xl lg:text-6xl uppercase font-bold text-center text-primary mb-5'>Services</h1>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 '>
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card w-full lg:w-96 bg-base-100 cardHover shadow-xl">
                     <figure class="px-10 pt-10">
                         <FontAwesomeIcon className='text-4xl' icon={faLaptop}></FontAwesomeIcon>
                     </figure>
@@ -18,7 +19,7 @@ const Services = () => {
 
                     </div>
                 </div>
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card w-full lg:w-96  bg-base-100 cardHover shadow-xl">
                     <figure class="px-10 pt-10">
                         <FontAwesomeIcon className='text-4xl' icon={faLaptopCode}></FontAwesomeIcon>
                     </figure>
@@ -28,12 +29,12 @@ const Services = () => {
 
                     </div>
                 </div>
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card w-full lg:w-96  bg-base-100 cardHover shadow-xl">
                     <figure class="px-10 pt-10">
                         <FontAwesomeIcon className='text-4xl' icon={faLaptopMedical}></FontAwesomeIcon>
                     </figure>
                     <div class="card-body items-center text-center">
-                        <h2 class="card-title">Error Debuging</h2>
+                        <h2 class="card-title uppercase font-bold">Error Debuging</h2>
                         <p>I do error bugging very fast.</p>
 
                     </div>

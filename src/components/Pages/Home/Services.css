@@ -1,0 +1,8 @@
+.cardHover {
+    cursor: pointer;
+}
+
+.cardHover:hover {
+    background-color: rgb(5, 175, 5);
+    color: white;
+}

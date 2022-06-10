@@ -21,7 +21,7 @@ const About = () => {
                 <div class="hero min-h-screen">
                     <div class="hero-content flex-col gap-5 lg:flex-row">
                         <img src={profile} class="w-80 lg:w-96  rounded-lg shadow-2xl" />
-                        <div class="card w-72 lg:w-96 bg-base-100 shadow-xl">
+                        <div class="card w-full lg:w-96 bg-base-100 shadow-xl">
                             <div class="card-body">
                                 <h5 class="text-xl font-bold mb-2 "><FontAwesomeIcon className=' mr-2' icon={faUser}></FontAwesomeIcon> Md.Mostafizur Rahman</h5>
                                 <h5 class="text-xl font-bold mb-2 "><FontAwesomeIcon className=' mr-2' icon={faCalendarDays}></FontAwesomeIcon> 22 February 1997</h5>

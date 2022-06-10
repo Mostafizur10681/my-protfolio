@@ -10,7 +10,7 @@ const Footer = () => {
     return (
         <div>
             <footer class="footer p-10 bg-black text-neutral-content">
-                <div className='w-96'>
+                <div className='w-80'>
                     <h2 className='text-3xl footer-title text-white text'>Md. Mostafizur Rahman</h2>
                     <p className='text-md'>A web designer. I always make websites that have unique designs
                         and also has a good performance rate. I am always try to write code clean & perfect.</p>
