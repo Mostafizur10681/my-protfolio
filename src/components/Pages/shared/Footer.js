@@ -12,14 +12,14 @@ const Footer = () => {
             <footer class="footer p-10 bg-black text-neutral-content">
                 <div className='w-80'>
                     <h2 className='text-3xl footer-title text-white text'>Md. Mostafizur Rahman</h2>
-                    <p className='text-md'>A web designer. I always make websites that have unique designs
-                        and also has a good performance rate. I am always try to write code clean & perfect.</p>
+                    <p className='text-md'>I'm a web designer & MERN Stack developer focused on crafting clean & user‑friendly experiences. My strength is I can learn new technology quickly. I always make websites that have unique designs
+                        and also develop with good performance rate. I am always try to write code clean & perfect.</p>
                 </div>
                 <div>
                     <span class="footer-title text-white text-xl">Important Links</span>
                     <Link to='/' className='link link-hover text-md'>Home</Link>
                     <Link to='/about' className="link link-hover text-md">About</Link>
-                    <Link to='/projects' className='link link-hover text-md'>Projects</Link>
+                    <Link to='/protfolio' className='link link-hover text-md'>Projects</Link>
                     <Link to='/contact' className='link link-hover text-md'>Contact</Link>
                 </div>
                 <div>
@@ -40,7 +40,7 @@ const Footer = () => {
 
 
             </footer>
-            <div className='bg-black'>
+            <div className='bg-black py-4'>
                 <p className='text-center text-white text-sm'>&copy; 2022 | All Right Reserved by Md. Mostafizur Rahman</p>
             </div>
         </div>

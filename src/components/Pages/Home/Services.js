@@ -15,7 +15,7 @@ const Services = () => {
                     </figure>
                     <div class="card-body items-center text-center">
                         <h2 class="card-title uppercase font-bold">Web Design</h2>
-                        <p>I do UI/UX design. I always try to doing unique design that helps your website get unique look </p>
+                        <p>I do website design. I always try to doing unique design that helps your website get unique look. I alawys try to do pixel perfect design from Figma & Adobe Photoshop</p>
 
                     </div>
                 </div>
@@ -35,7 +35,7 @@ const Services = () => {
                     </figure>
                     <div class="card-body items-center text-center">
                         <h2 class="card-title uppercase font-bold">Error Debuging</h2>
-                        <p>I do error bugging very fast.</p>
+                        <p>I do error bugging very fast. I am also expertise in Devs Tools. I can fix bugs very easily & quickly</p>
 
                     </div>
                 </div>

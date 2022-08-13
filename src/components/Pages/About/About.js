@@ -35,7 +35,7 @@ const About = () => {
                                     <a href="https://github.com/Mostafizur10681" target='_blank'><img className='mr-3 rounded-md w-8' src={github} alt="" /></a>
                                     <a href="mailto: mostafizur15-10681@diu.edu.bd"><img className='mr-3 rounded-md w-10' src={mail} alt="" /></a>
                                 </div>
-                                <button class="btn btn-primary rounded-full text-lg text-white"><FontAwesomeIcon className='mr-2' icon={faDownload}></FontAwesomeIcon><a href="https://drive.google.com/file/d/1D3swU42HGXKORtngBiEpYTc3EcDRULEO/view?usp=sharing" target='_blank'>Download My Resume</a> </button>
+                                <button class="btn btn-primary rounded-full text-lg text-white"><FontAwesomeIcon className='mr-2' icon={faDownload}></FontAwesomeIcon><a href="https://drive.google.com/file/d/1joe2ufJzpyFB1FW5xkz755IB8s-hBWzl/view?usp=sharing" target='_blank'>Download CV</a> </button>
                             </div>
                         </div>
 
