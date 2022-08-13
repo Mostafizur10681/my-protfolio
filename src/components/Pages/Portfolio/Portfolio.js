@@ -17,6 +17,9 @@ import mac3 from '../../assets/mac3.jpg';
 import community1 from '../../assets/cummunity-1.jpg';
 import community2 from '../../assets/community-2.jpg';
 import community3 from '../../assets/community-3.jpg';
+import penguine1 from '../../assets/penguine1.jpg';
+import penguine2 from '../../assets/penguine2.jpg';
+import penguine3 from '../../assets/penguine3.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import Slider from "react-slick";
@@ -124,6 +127,7 @@ const Protfolio = () => {
                         </div>
                     </div>
                 </div>
+
                 <div class="card card-compact mb-5 w-full lg:w-96 bg-base-100 shadow-xl">
                     <figure>
                         <img src={electronics} alt="MacBook" />
@@ -137,7 +141,25 @@ const Protfolio = () => {
                             <label for="electronics-modal" class="btn btn-outline btn-primary text-white text-md modal-button">Details<FontAwesomeIcon className='ml-1' icon={faArrowRight}></FontAwesomeIcon></label>
 
                             <a href="https://timely-longma-a7558f.netlify.app/" target='_blank'><button class="btn btn-outline btn-primary text-white text-md">Live Site</button></a>
-                            <a href="https://github.com/Mostafizur10681/mac-book-pro" target='_blank'><button class="btn btn-outline btn-primary text-white text-md">GitHub</button></a>
+                            <a href="https://github.com/Mostafizur10681/lucky-one" target='_blank'><button class="btn btn-outline btn-primary text-white text-md">GitHub</button></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-compact mb-5 w-full lg:w-96 bg-base-100 shadow-xl">
+                    <figure>
+                        <img src={penguine1} alt="Penguine" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 className='text-center font-bold text-2xl uppercase'>Penguine Shop</h2>
+                        <span className='text-lg font-bold text-gray-500'>
+                            <span className='uppercase text-primary text-xl'>Technologies:</span>Tailwind, Netlify
+                        </span>
+                        <div class="card-actions justify-center">
+                            <label for="penguine-modal" class="btn btn-outline btn-primary text-white text-md modal-button">Details<FontAwesomeIcon className='ml-1' icon={faArrowRight}></FontAwesomeIcon></label>
+
+                            <a href="https://penguine-fashion-tailwindsourav.netlify.app/" target='_blank'><button class="btn btn-outline btn-primary text-white text-md">Live Site</button></a>
+                            <a href="https://github.com/Mostafizur10681/penguine-website" target='_blank'><button class="btn btn-outline btn-primary text-white text-md">GitHub</button></a>
 
                         </div>
                     </div>
@@ -411,6 +433,37 @@ const Protfolio = () => {
                                 <h2 className='text-primary font-bold text-2xl text-left'>Project Details:</h2>
                                 <p className='text-left text-md'>
                                     1. It's a single page Web App.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <input type="checkbox" id="penguine-modal" class="modal-toggle" />
+                    <div class="modal modal-bottom sm:modal-middle">
+                        <div class="modal-box">
+                            <label for="penguine-modal" class="btn btn-sm btn-circle absolute bg-red-600 right-2 top-2">✕</label>
+                            <Slider {...settings} className='mb-6'>
+                                <div>
+                                    <img src={penguine1} alt="" srcset="" />
+                                </div>
+                                <div>
+                                    <img src={penguine2} alt="" srcset="" />
+                                </div>
+                                <div>
+                                    <img src={penguine3} alt="" srcset="" />
+                                </div>
+
+                            </Slider>
+
+                            <div className='mt-2'>
+                                <h2 className='text-primary font-bold text-2xl text-left'>Penguine Shop Project Details:</h2>
+                                <p className='text-left text-md'>
+                                    1. It's a single page Web App.
+                                </p>
+                                <p className='text-left text-md'>
+                                    2. It's a e-commerce related website
                                 </p>
 
                             </div>
