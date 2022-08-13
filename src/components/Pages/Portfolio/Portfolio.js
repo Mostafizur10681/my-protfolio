@@ -14,6 +14,9 @@ import tutor2 from '../../assets/tutor2.jpg';
 import tutor3 from '../../assets/tutor3.jpg';
 import mac2 from '../../assets/mac2.jpg';
 import mac3 from '../../assets/mac3.jpg';
+import community1 from '../../assets/cummunity-1.jpg';
+import community2 from '../../assets/community-2.jpg';
+import community3 from '../../assets/community-3.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import Slider from "react-slick";
@@ -32,7 +35,7 @@ const Protfolio = () => {
             <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2'>
                 <div class="card card-compact mb-5 w-full lg:w-96 bg-base-100 shadow-xl">
                     <figure>
-                        <img src={gadget} alt="Shoes" />
+                        <img src={gadget} alt="Gadget" />
                     </figure>
                     <div class="card-body">
                         <h2 className='text-center font-bold text-2xl uppercase'>Computer Manufacturer</h2>
@@ -96,6 +99,27 @@ const Protfolio = () => {
 
                             <a href="https://mac-book-pro-analysis.netlify.app/" target='_blank'><button class="btn btn-outline btn-primary text-white text-md">Live Site</button></a>
                             <a href="https://github.com/Mostafizur10681/mac-book-pro" target='_blank'><button class="btn btn-outline btn-primary text-white text-md">GitHub</button></a>
+
+                        </div>
+                    </div>
+                </div>
+
+                {/* Community Center */}
+
+                <div class="card card-compact mb-5 w-full lg:w-96 bg-base-100 shadow-xl">
+                    <figure>
+                        <img src={community1} alt="Dhanmondi Community Center" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 className='text-center font-bold text-2xl uppercase'>Dhanmondi Community Center</h2>
+                        <span className='text-lg font-bold text-gray-500'>
+                            <span className='uppercase text-primary text-xl'>Technologies:</span>Bootstrap, Media Query, Netlify.
+                        </span>
+                        <div class="card-actions justify-center">
+                            <label for="community-modal" class="btn btn-outline btn-primary text-white text-md modal-button">Details<FontAwesomeIcon className='ml-1' icon={faArrowRight}></FontAwesomeIcon></label>
+
+                            <a href="https://dhanmondi-cummunity-center.netlify.app/" target='_blank'><button class="btn btn-outline btn-primary text-white text-md">Live Site</button></a>
+                            <a href="https://github.com/Mostafizur10681/convention-center" target='_blank'><button class="btn btn-outline btn-primary text-white text-md">GitHub</button></a>
 
                         </div>
                     </div>
@@ -309,6 +333,43 @@ const Protfolio = () => {
                                 <h2 className='text-primary font-bold text-2xl text-left'>Project Details:</h2>
                                 <p className='text-left text-md'>
                                     1. It's a single page Web App. Where I use React Router.v6 for build this.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <input type="checkbox" id="community-modal" class="modal-toggle" />
+                    <div class="modal modal-bottom sm:modal-middle">
+                        <div class="modal-box">
+                            <label for="community-modal" class="btn btn-sm btn-circle absolute bg-red-600 right-2 top-2">✕</label>
+                            <Slider {...settings} className='mb-6'>
+                                <div>
+                                    <img src={community1} alt="" srcset="" />
+                                </div>
+                                <div>
+                                    <img src={community2} alt="" srcset="" />
+                                </div>
+                                <div>
+                                    <img src={community3} alt="" srcset="" />
+                                </div>
+
+                            </Slider>
+
+                            <div className='mt-2'>
+                                <h2 className='text-primary font-bold text-2xl text-left'>Dhanmondi Community Project Details:</h2>
+                                <p className='text-left text-md'>
+                                    1. It's a single page Web App.
+                                </p>
+                                <p className='text-left text-md'>
+                                    2. It's a services related website.
+                                </p>
+                                <p className='text-left text-md'>
+                                    3. It has a frequently asked question & answer section.
+                                </p>
+                                <p className='text-left text-md'>
+                                    4. Create this websitw using Bootstrap.
                                 </p>
 
                             </div>
